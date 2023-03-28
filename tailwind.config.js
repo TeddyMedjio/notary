@@ -16,7 +16,7 @@ module.exports = {
         },
       },
       fontFamily: {
-        body: ["Inter", ...defaultTheme.fontFamily.sans],
+        openSans: ["Open Sans", ...defaultTheme.fontFamily.sans],
         heading: ["Vidaloka", "sans-serif"],
       },
       spacing: {
