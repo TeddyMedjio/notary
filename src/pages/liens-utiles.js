@@ -1,13 +1,11 @@
 import Head from "next/head";
-import Citation from "@/components/Citation/Citation";
-import Footer from "@components/Footer/Footer";
-import Header from "@/components/Header/Navbar";
+import Navbar from "@/components/Header/Navbar";
 
-export default function Home() {
+export default function LiensUtiles() {
   return (
     <>
       <Head>
-        <title>Notariat Riegelová – Das freie unabhängige Berufsnotariat</title>
+        <title>Liens Utiles - Notariat Riegelová</title>
         <meta
           name="description"
           content="Das freie unabhängige Berufsnotariat"
@@ -20,9 +18,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        <Header />
-        <Citation />
-        <Footer />
+        <Navbar />
       </main>
     </>
   );
