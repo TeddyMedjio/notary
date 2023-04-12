@@ -4,7 +4,7 @@ const Footer = () => (
   <footer className="bg-brand-gray">
     <div className="py-12 flex flex-col justify-center">
       <Logo className="h-28" color="#758896" text="#758896" />
-      <p className="mt-3 max-w-4xl mx-auto text-center text-white text-2xl">
+      <p className="mt-3 max-w-4xl mx-auto text-center text-white text-xl md:text-2xl">
         <span className="text-brand-light-gray">Adresse:</span> Étude de la
         notaire Riegelová Rue de Nidau 14 2502 Biel/Bienne{" "}
         <span className="text-brand-light-gray">Phone:</span> +41 (0) 32 322 43
