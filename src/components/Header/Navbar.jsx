@@ -45,7 +45,7 @@ export default function Navbar() {
               </svg>
             </div>
             <ul className="flex flex-col items-center justify-between text-center min-h-[250px] w-full">
-              <Logo className="h-28 mb-10" color="#ffffff" text="#ffffff" />
+              <Logo className="h-21 my-10" color="#ffffff" text="#ffffff" />
               <li className="text-white border-y border-brand-yellow uppercase w-full py-8">
                 <Link href="/">Acceuil</Link>
               </li>
