@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { useRouter } from "next/router";
+import Link from "next/link";
 import Image from "next/image";
 import german from "../../../public/german-flag.svg";
 import french from "../../../public/french-flag.svg";
@@ -11,9 +12,9 @@ export default function Navbar() {
 
   return (
     <div className="flex items-center justify-between py-8 container mx-auto">
-      <a href="/">
+      <Link href="/">
         <Logo className="h-10 md:h-14" />
-      </a>
+      </Link>
       <nav>
         <section className="MOBILE-MENU flex lg:hidden">
           <div
@@ -45,34 +46,34 @@ export default function Navbar() {
             </div>
             <ul className="flex flex-col items-center justify-between text-center min-h-[250px] w-full">
               <li className="text-white border-y border-brand-yellow uppercase w-full py-8">
-                <a href="/">Acceuil</a>
+                <Link href="/">Acceuil</Link>
               </li>
               <li className="text-white border-b border-brand-yellow uppercase w-full py-8">
-                <a href="/qui-sommes-nous">Qui sommes-nous</a>
+                <Link href="/qui-sommes-nous">Qui sommes-nous</Link>
               </li>
               <li className="text-white border-b border-brand-yellow uppercase w-full py-8">
-                <a href="/nos-services">Nos Services</a>
+                <Link href="/nos-services">Nos Services</Link>
               </li>
               <li className="text-white border-b border-brand-yellow uppercase w-full py-8">
-                <a href="/liens-utiles">Liens Utiles</a>
+                <Link href="/liens-utiles">Liens Utiles</Link>
               </li>
               <li className="text-white border-b border-brand-yellow uppercase w-full py-8">
-                <a href="/la-presse">La Presse</a>
+                <Link href="/la-presse">La Presse</Link>
               </li>
               <li className="text-white border-b border-brand-yellow uppercase w-full py-8">
-                <a href="/contact">Contact</a>
+                <Link href="/contact">Contact</Link>
               </li>
               <li className="flex items-center mt-11">
-                <a href="/">
+                <Link href="/">
                   <Image
                     src={french}
                     className="w-9 mr-5"
                     alt="icon french flag"
                   />
-                </a>
-                <a href="/">
+                </Link>
+                <Link href="/">
                   <Image src={german} className="w-9" alt="icon german flag" />
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
@@ -80,65 +81,65 @@ export default function Navbar() {
 
         <ul className="DESKTOP-MENU hidden space-x-8 lg:flex">
           <li className="text-brand-gray text-[17px] transition-all duration-300 ease hover:text-brand-red">
-            <a
+            <Link
               href="/"
               className={router.pathname === "/" ? "text-brand-red" : ""}
             >
               Acceuil
-            </a>
+            </Link>
           </li>
           <li className="text-brand-gray text-[17px] transition-all duration-300 ease hover:text-brand-red">
-            <a
+            <Link
               href="/qui-sommes-nous"
               className={
                 router.pathname === "/qui-sommes-nous" ? "text-brand-red" : ""
               }
             >
               Qui sommes-nous
-            </a>
+            </Link>
           </li>
           <li className="text-brand-gray text-[17px] transition-all duration-300 ease hover:text-brand-red">
-            <a
+            <Link
               href="/nos-services"
               className={
                 router.pathname === "/nos-services" ? "text-brand-red" : ""
               }
             >
               Nos Services
-            </a>
+            </Link>
           </li>
           <li className="text-brand-gray text-[17px] transition-all duration-300 ease hover:text-brand-red">
-            <a
+            <Link
               href="/liens-utiles"
               className={
                 router.pathname === "/liens-utiles" ? "text-brand-red" : ""
               }
             >
               Liens Utiles
-            </a>
+            </Link>
           </li>
           <li className="text-brand-gray text-[17px] transition-all duration-300 ease hover:text-brand-red">
-            <a
+            <Link
               href="/la-presse"
               className={
                 router.pathname === "/la-presse" ? "text-brand-red" : ""
               }
             >
               La Presse
-            </a>
+            </Link>
           </li>
           <li className="text-brand-gray text-[17px] transition-all duration-300 ease hover:text-brand-red">
-            <a
+            <Link
               href="/contact"
               className={router.pathname === "/contact" ? "text-brand-red" : ""}
             >
               Contact
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="/">
+            <Link href="/">
               <Image src={german} className="w-7" alt="icon french flag" />
-            </a>
+            </Link>
           </li>
         </ul>
       </nav>
