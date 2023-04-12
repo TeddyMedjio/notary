@@ -11,14 +11,14 @@ export default function Navbar() {
   const router = useRouter();
 
   return (
-    <div className="flex items-center justify-between py-8 container mx-auto">
+    <div className="flex items-center justify-between jus py-8 container mx-auto">
       <Link href="/">
         <Logo className="h-10 md:h-14" />
       </Link>
       <nav>
-        <section className="MOBILE-MENU flex lg:hidden">
+        <section className="MOBILE-MENU flex xl:hidden">
           <div
-            className="HAMBURGER-ICON space-y-2 px-8"
+            className="HAMBURGER-ICON space-y-2 px-8 cursor-pointer"
             onClick={() => setIsNavOpen((prev) => !prev)}
           >
             <span className="block h-0.5 w-8 rounded animate-pulse bg-brand-red"></span>
@@ -28,7 +28,7 @@ export default function Navbar() {
 
           <div className={isNavOpen ? "showMenuNav" : "hideMenuNav"}>
             <div
-              className="absolute top-0 right-0 p-8"
+              className="absolute top-0 right-0 p-8 cursor-pointer"
               onClick={() => setIsNavOpen(false)}
             >
               <svg
@@ -45,6 +45,7 @@ export default function Navbar() {
               </svg>
             </div>
             <ul className="flex flex-col items-center justify-between text-center min-h-[250px] w-full">
+              <Logo className="h-28 mb-10" color="#ffffff" text="#ffffff" />
               <li className="text-white border-y border-brand-yellow uppercase w-full py-8">
                 <Link href="/">Acceuil</Link>
               </li>
@@ -79,7 +80,7 @@ export default function Navbar() {
           </div>
         </section>
 
-        <ul className="DESKTOP-MENU hidden space-x-8 lg:flex">
+        <ul className="DESKTOP-MENU hidden space-x-6 xl:flex">
           <li className="text-brand-gray text-[17px] transition-all duration-300 ease hover:text-brand-red">
             <Link
               href="/"
