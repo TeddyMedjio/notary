@@ -46,34 +46,34 @@ export default function Navbar() {
             </div>
             <ul className="flex flex-col items-center justify-between text-center min-h-[250px] w-full">
               <li className="text-white border-y border-brand-yellow uppercase w-full py-8">
-                <a href="/">Acceuil</a>
+                <Link href="/">Acceuil</Link>
               </li>
               <li className="text-white border-b border-brand-yellow uppercase w-full py-8">
-                <a href="/qui-sommes-nous">Qui sommes-nous</a>
+                <Link href="/qui-sommes-nous">Qui sommes-nous</Link>
               </li>
               <li className="text-white border-b border-brand-yellow uppercase w-full py-8">
-                <a href="/nos-services">Nos Services</a>
+                <Link href="/nos-services">Nos Services</Link>
               </li>
               <li className="text-white border-b border-brand-yellow uppercase w-full py-8">
-                <a href="/liens-utiles">Liens Utiles</a>
+                <Link href="/liens-utiles">Liens Utiles</Link>
               </li>
               <li className="text-white border-b border-brand-yellow uppercase w-full py-8">
-                <a href="/la-presse">La Presse</a>
+                <Link href="/la-presse">La Presse</Link>
               </li>
               <li className="text-white border-b border-brand-yellow uppercase w-full py-8">
-                <a href="/contact">Contact</a>
+                <Link href="/contact">Contact</Link>
               </li>
               <li className="flex items-center mt-11">
-                <a href="/">
+                <Link href="/">
                   <Image
                     src={french}
                     className="w-9 mr-5"
                     alt="icon french flag"
                   />
-                </a>
-                <a href="/">
+                </Link>
+                <Link href="/">
                   <Image src={german} className="w-9" alt="icon german flag" />
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
