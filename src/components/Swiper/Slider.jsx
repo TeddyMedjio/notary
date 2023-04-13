@@ -29,7 +29,7 @@ export default function Slider() {
       >
         <SwiperSlide>
           <div className="relative container mx-auto">
-            <div className="  max-w-[700px] absolute right-0 top-0 mt-[40%] lg:mt-[15%] text-center lg:text-left  ">
+            <div className="  max-w-[700px] absolute right-0 top-0 mt-[20%] text-center lg:text-left  ">
               <h1 className="text-brand-red font-heading text-6xl">
                 Le Notariat professionnel, indépendant et libre
               </h1>
@@ -50,7 +50,7 @@ export default function Slider() {
         </SwiperSlide>
         <SwiperSlide>
           <div className="relative container mx-auto">
-            <div className=" max-w-[700px] absolute sm:left-0 lg:left-auto right-0 top-0 mt-[40%] lg:mt-[15%] text-center lg:text-left">
+            <div className=" max-w-[700px] absolute sm:left-0 lg:left-auto right-0 top-0 mt-[20%] md:mt-[40%] lg:mt-[15%] text-center lg:text-left">
               <h1 className="text-brand-red font-heading text-6xl drop-shadow-[0_35px_35px_rgb(255, 255, 255)]">
                 Le Notariat professionnel, indépendant et libre
               </h1>
