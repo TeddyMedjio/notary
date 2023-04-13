@@ -34,7 +34,7 @@ export default function Slider() {
                 Le Notariat professionnel, indépendant et libre
               </h1>
               <p className=" text-xl text-brand-gray my-10">
-                L&rsquo;étude de la notaire Riegelová est synonyme de conseils
+                L&#39;étude de la notaire Riegelová est synonyme de conseils
                 juridiques complets et sur mesure dans toutes les situations de
                 la vie et sur plusieurs générations.
               </p>
@@ -56,15 +56,15 @@ export default function Slider() {
               </h1>
               <p className=" text-xl text-brand-gray my-10">
                 Dans le canton de Berne, les notaires sont une profession libre,
-                académique et publique - séparée de l&rsquo;administration et de
+                académique et publique - séparée de l&#39;administration et de
                 la juridiction.
               </p>
-              <a
+              <Link
                 href="mailto:info@notariat-biel.ch"
                 className="font-bold uppercase transition-all duration-300 ease bg-brand-blue hover:bg-brand-gray text-white py-3 px-3 rounded cursor-pointer tracking-widest"
               >
                 Laisser un message
-              </a>
+              </Link>
             </div>
           </div>
           <Image src={slider} height="100%" alt="image de la notaire" />
