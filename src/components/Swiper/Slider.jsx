@@ -29,8 +29,8 @@ export default function Slider() {
       >
         <SwiperSlide>
           <div className="relative container mx-auto">
-            <div className="  max-w-[700px] absolute right-0 top-0 mt-[15%] ">
-              <h1 className="text-brand-red font-heading text-6xl drop-shadow-[0_35px_35px_rgb(255, 255, 255)]">
+            <div className="  max-w-[700px] absolute right-0 top-0 mt-[40%] lg:mt-[15%] text-center lg:text-left  ">
+              <h1 className="text-brand-red font-heading text-6xl">
                 Le Notariat professionnel, indépendant et libre
               </h1>
               <p className=" text-xl text-brand-gray my-10">
@@ -40,7 +40,7 @@ export default function Slider() {
               </p>
               <Link
                 href="/"
-                className="font-bold uppercase transition-all duration-300 ease bg-brand-blue hover:bg-brand-gray text-white py-3 px-3 rounded cursor-pointer tracking-widest"
+                className="font-bold uppercase transition-all duration-300 ease bg-brand-blue hover:bg-brand-gray text-white py-3 px-3 rounded cursor-pointer tracking-widest "
               >
                 barbora riegelová
               </Link>
@@ -50,11 +50,11 @@ export default function Slider() {
         </SwiperSlide>
         <SwiperSlide>
           <div className="relative container mx-auto">
-            <div className=" max-w-[700px] absolute right-0 top-0 mt-[15%]">
+            <div className=" max-w-[700px] absolute sm:left-0 lg:left-auto right-0 top-0 mt-[40%] lg:mt-[15%] text-center lg:text-left">
               <h1 className="text-brand-red font-heading text-6xl drop-shadow-[0_35px_35px_rgb(255, 255, 255)]">
                 Le Notariat professionnel, indépendant et libre
               </h1>
-              <p className=" text-xl text-brand-gray my-10">
+              <p className=" text-xl text-brand-gray my-10 px-3 md:px-0">
                 Dans le canton de Berne, les notaires sont une profession libre,
                 académique et publique - séparée de l&#39;administration et de
                 la juridiction.
