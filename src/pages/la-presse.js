@@ -1,7 +1,15 @@
 import Head from "next/head";
+import { motion, useScroll, useSpring } from "framer-motion";
 import Navbar from "@/components/Header/Navbar";
+import { LoremIpsum } from "@/components/Lorem";
 
 export default function LaPresse() {
+  const { scrollYProgress } = useScroll();
+  const scaleX = useSpring(scrollYProgress, {
+    stiffness: 100,
+    damping: 30,
+    restDelta: 0.001,
+  });
   return (
     <>
       <Head>
@@ -19,6 +27,11 @@ export default function LaPresse() {
       </Head>
       <main>
         <Navbar />
+        <motion.div
+          className="mx-auto fixed top-0 left-0 right-0 h-[5px] bg-brand-red z-50"
+          style={{ scaleX }}
+        />
+        <LoremIpsum />
       </main>
     </>
   );

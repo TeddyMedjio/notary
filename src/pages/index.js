@@ -1,9 +1,19 @@
 import Head from "next/head";
+import { motion, useScroll, useSpring } from "framer-motion";
 import Citation from "@/components/Citation/Citation";
 import Footer from "@components/Footer/Footer";
-import Header from "@/components/Header/Navbar";
+import Navbar from "@/components/Header/Navbar";
+import { LoremIpsum } from "@/components/Lorem";
+import Slider from "@/components/Swiper/Slider";
 
 export default function Home() {
+  const { scrollYProgress } = useScroll();
+  const scaleX = useSpring(scrollYProgress, {
+    stiffness: 100,
+    damping: 30,
+    restDelta: 0.001,
+  });
+
   return (
     <>
       <Head>
@@ -20,9 +30,25 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        <Header />
-        <Citation />
-        <Footer />
+        <Navbar />
+        <motion.div
+          className="mx-auto fixed top-0 left-0 right-0 h-[5px] bg-brand-red z-50 "
+          style={{ scaleX }}
+        />
+        <motion.div
+          initial={{ opacity: 0, scale: 0.5 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{
+            duration: 0.8,
+            delay: 0.5,
+            ease: [0, 0.71, 0.2, 1.01],
+          }}
+        >
+          <Slider />
+          <LoremIpsum />
+          <Citation />
+          <Footer />
+        </motion.div>
       </main>
     </>
   );
