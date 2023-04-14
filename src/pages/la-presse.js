@@ -26,11 +26,11 @@ export default function LaPresse() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
+        <Navbar />
         <motion.div
           className="mx-auto fixed top-0 left-0 right-0 h-[5px] bg-brand-red z-50"
           style={{ scaleX }}
         />
-        <Navbar />
         <LoremIpsum />
       </main>
     </>
