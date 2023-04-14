@@ -1,6 +1,5 @@
 import Head from "next/head";
 import { motion, useScroll, useSpring } from "framer-motion";
-import Navbar from "@/components/Header/Navbar";
 import { LoremIpsum } from "@/components/Lorem";
 
 export default function LiensUtiles() {
@@ -27,7 +26,6 @@ export default function LiensUtiles() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        <Navbar />
         <motion.div
           className="mx-auto fixed top-0 left-0 right-0 h-[5px] bg-brand-red z-50 "
           style={{ scaleX }}

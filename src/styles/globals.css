@@ -43,3 +43,19 @@
   height: 100%;
   object-fit: cover;
 }
+
+.background-image {
+  object-fit: cover;
+  background: url(../../public/img/background.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.background-motif {
+  object-fit: cover;
+  background: url(../../public/img/motifs.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
