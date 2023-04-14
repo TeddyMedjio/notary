@@ -5,6 +5,7 @@ import Footer from "@components/Footer/Footer";
 import Slider from "@/components/Swiper/Slider";
 import Etude from "@/components/Etude/Etude";
 import Formation from "@/components/Formation/Formation";
+import Navbar from "@/components/Header/Navbar";
 
 export default function Home() {
   const { scrollYProgress } = useScroll();
@@ -43,6 +44,7 @@ export default function Home() {
             ease: [0, 0.71, 0.2, 1.01],
           }}
         >
+          <Navbar />
           <Slider />
           <Etude />
           <Formation />

@@ -29,6 +29,7 @@ export default function LaPresse() {
           className="mx-auto fixed top-0 left-0 right-0 h-[5px] bg-brand-red z-50"
           style={{ scaleX }}
         />
+        <Navbar />
         <LoremIpsum />
       </main>
     </>
