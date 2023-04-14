@@ -24,7 +24,7 @@ const Formation = () => {
         <div className="bg-white px-10 py-20 max-w-[556px] mt-10 lg:mt-0 lg:ml-10">
           <Image src={certificate} height="auto" alt="icon certificate" />
           <h3 className=" font-heading text-4xl text-brand-gray my-10">
-            Formation
+            Formation juridique des Notaires
           </h3>
           <p className=" text-lg mt-5 text-brand-gray">
             La formation juridique des notaires, qui se déroule sur plusieurs

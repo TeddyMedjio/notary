@@ -86,7 +86,7 @@ export default function Navbar() {
           </section>
 
           <ul className="DESKTOP-MENU hidden space-x-6 xl:flex">
-            <li className="text-brand-gray text-[17px] transition-all duration-300 ease hover:text-brand-red">
+            <li className="text-brand-gray text-lg transition-all duration-300 ease hover:text-brand-red">
               <Link
                 href="/"
                 className={router.pathname === "/" ? "text-brand-red" : ""}
@@ -94,7 +94,7 @@ export default function Navbar() {
                 Acceuil
               </Link>
             </li>
-            <li className="text-brand-gray text-[17px] transition-all duration-300 ease hover:text-brand-red">
+            <li className="text-brand-gray text-lg transition-all duration-300 ease hover:text-brand-red">
               <Link
                 href="/qui-sommes-nous"
                 className={
@@ -104,7 +104,7 @@ export default function Navbar() {
                 Qui sommes-nous
               </Link>
             </li>
-            <li className="text-brand-gray text-[17px] transition-all duration-300 ease hover:text-brand-red">
+            <li className="text-brand-gray text-lg transition-all duration-300 ease hover:text-brand-red">
               <Link
                 href="/nos-services"
                 className={
@@ -114,7 +114,7 @@ export default function Navbar() {
                 Nos Services
               </Link>
             </li>
-            <li className="text-brand-gray text-[17px] transition-all duration-300 ease hover:text-brand-red">
+            <li className="text-brand-gray text-lg transition-all duration-300 ease hover:text-brand-red">
               <Link
                 href="/liens-utiles"
                 className={
@@ -124,7 +124,7 @@ export default function Navbar() {
                 Liens Utiles
               </Link>
             </li>
-            <li className="text-brand-gray text-[17px] transition-all duration-300 ease hover:text-brand-red">
+            <li className="text-brand-gray text-lg transition-all duration-300 ease hover:text-brand-red">
               <Link
                 href="/la-presse"
                 className={
@@ -134,7 +134,7 @@ export default function Navbar() {
                 La Presse
               </Link>
             </li>
-            <li className="text-brand-gray text-[17px] transition-all duration-300 ease hover:text-brand-red">
+            <li className="text-brand-gray text-lg transition-all duration-300 ease hover:text-brand-red">
               <Link
                 href="/contact"
                 className={
