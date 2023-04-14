@@ -1,6 +1,7 @@
 import Head from "next/head";
 import { motion, useScroll, useSpring } from "framer-motion";
 import { LoremIpsum } from "@/components/Lorem";
+import Navbar from "@/components/Header/Navbar";
 
 export default function Contact() {
   const { scrollYProgress } = useScroll();
