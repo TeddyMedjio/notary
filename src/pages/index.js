@@ -2,9 +2,9 @@ import Head from "next/head";
 import { motion, useScroll, useSpring } from "framer-motion";
 import Citation from "@/components/Citation/Citation";
 import Footer from "@components/Footer/Footer";
-import Navbar from "@/components/Header/Navbar";
-import { LoremIpsum } from "@/components/Lorem";
 import Slider from "@/components/Swiper/Slider";
+import Etude from "@/components/Etude/Etude";
+import Formation from "@/components/Formation/Formation";
 
 export default function Home() {
   const { scrollYProgress } = useScroll();
@@ -30,7 +30,6 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        <Navbar />
         <motion.div
           className="mx-auto fixed top-0 left-0 right-0 h-[5px] bg-brand-red z-50 "
           style={{ scaleX }}
@@ -45,7 +44,8 @@ export default function Home() {
           }}
         >
           <Slider />
-          <LoremIpsum />
+          <Etude />
+          <Formation />
           <Citation />
           <Footer />
         </motion.div>
