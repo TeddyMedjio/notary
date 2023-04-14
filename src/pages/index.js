@@ -31,6 +31,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
+        <Navbar />
         <motion.div
           className="mx-auto fixed top-0 left-0 right-0 h-[5px] bg-brand-red z-50 "
           style={{ scaleX }}
@@ -44,7 +45,6 @@ export default function Home() {
             ease: [0, 0.71, 0.2, 1.01],
           }}
         >
-          <Navbar />
           <Slider />
           <Etude />
           <Formation />
