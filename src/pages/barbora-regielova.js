@@ -3,7 +3,7 @@ import { motion, useScroll, useSpring } from "framer-motion";
 import { LoremIpsum } from "@/components/Lorem";
 import Navbar from "@/components/Header/Navbar";
 
-export default function barboraRegielova() {
+export default function BarboraRegielova() {
   const { scrollYProgress } = useScroll();
   const scaleX = useSpring(scrollYProgress, {
     stiffness: 100,
