@@ -39,8 +39,8 @@ export default function Slider() {
                 la vie et sur plusieurs générations.
               </p>
               <Link
-                href="/"
-                className="font-bold uppercase transition-all duration-300 ease bg-brand-blue hover:bg-brand-gray text-white py-3 px-3 rounded cursor-pointer tracking-widest "
+                href="/barbora-regielova"
+                className="font-bold uppercase transition-all duration-300 ease bg-brand-blue hover:bg-brand-red text-white py-3 px-3 rounded cursor-pointer tracking-widest "
               >
                 barbora riegelová
               </Link>
@@ -61,7 +61,7 @@ export default function Slider() {
               </p>
               <Link
                 href="mailto:info@notariat-biel.ch"
-                className="font-bold uppercase transition-all duration-300 ease bg-brand-blue hover:bg-brand-gray text-white py-3 px-3 rounded cursor-pointer tracking-widest"
+                className="font-bold uppercase transition-all duration-300 ease bg-brand-blue hover:bg-brand-red text-white py-3 px-3 rounded cursor-pointer tracking-widest"
               >
                 Laisser un message
               </Link>
