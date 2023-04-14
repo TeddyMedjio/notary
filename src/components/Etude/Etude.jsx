@@ -15,9 +15,9 @@ const Etude = () => {
             compte et sous notre propre responsabilité. Nous protégeons les
             intérêts de nos clients de manière égale et neutre. Nous assurons
             également une médiation entre les parties pour éviter ou résoudre
-            les conflits. Nous sommes soumis à l'obligation de garder le secret
-            et sommes responsables des dommages que nous ou nos employés causons
-            de manière coupable.
+            les conflits. Nous sommes soumis à l&#39;obligation de garder le
+            secret et sommes responsables des dommages que nous ou nos employés
+            causons de manière coupable.
           </p>
         </div>
         <Image
