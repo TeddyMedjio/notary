@@ -1,6 +1,7 @@
 import Head from "next/head";
 import { motion, useScroll, useSpring } from "framer-motion";
 import { LoremIpsum } from "@/components/Lorem";
+import Navbar from "@/components/Header/Navbar";
 
 export default function LaPresse() {
   const { scrollYProgress } = useScroll();
@@ -29,6 +30,7 @@ export default function LaPresse() {
           className="mx-auto fixed top-0 left-0 right-0 h-[5px] bg-brand-red z-50"
           style={{ scaleX }}
         />
+        <Navbar />
         <LoremIpsum />
       </main>
     </>
