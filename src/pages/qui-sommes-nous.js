@@ -1,7 +1,7 @@
 import Head from "next/head";
 import { motion, useScroll, useSpring } from "framer-motion";
 import Navbar from "@/components/Header/Navbar";
-import QuiSommes from "@/components/QuiSommes";
+import QuiSommes from "@/components/SommesNous/QuiSommes";
 import Notaires from "@/components/Notaires/Notaires";
 
 export default function QuiSommesNous() {

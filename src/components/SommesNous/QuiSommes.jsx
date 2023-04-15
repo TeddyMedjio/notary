@@ -1,5 +1,5 @@
 import Image from "next/image";
-import arrow from "../../public/img/arrow.svg";
+import arrow from "../../../public/img/arrow.svg";
 
 export default function QuiSommes() {
   return (

@@ -15,7 +15,6 @@ export default function Notaires() {
               <Link href="/barbora-regielova">
                 <Image src={fleche} height="auto" alt="icon fleche" />
               </Link>
-              S
             </div>
             <p className=" text-2xl text-white mt-3 border-brand-yellow border-b">
               Master of law, notaire du canton de Berne
