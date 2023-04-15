@@ -1,7 +1,8 @@
 import Head from "next/head";
 import { motion, useScroll, useSpring } from "framer-motion";
-import { LoremIpsum } from "@/components/Lorem";
 import Navbar from "@/components/Header/Navbar";
+import QuiSommes from "@/components/QuiSommes";
+import Notaires from "@/components/Notaires/Notaires";
 
 export default function QuiSommesNous() {
   const { scrollYProgress } = useScroll();
@@ -32,7 +33,8 @@ export default function QuiSommesNous() {
           className="mx-auto fixed top-0 left-0 right-0 h-[5px] bg-brand-red z-50"
           style={{ scaleX }}
         />
-        <LoremIpsum />
+        <QuiSommes />
+        <Notaires />
       </main>
     </>
   );

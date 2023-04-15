@@ -63,7 +63,7 @@ export default function Slider() {
                 href="mailto:info@notariat-biel.ch"
                 className="font-bold uppercase transition-all duration-300 ease bg-brand-blue hover:bg-brand-red text-white py-3 px-3 rounded cursor-pointer tracking-widest"
               >
-                Laisser un message
+                Laissez nous un message
               </Link>
             </div>
           </div>

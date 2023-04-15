@@ -59,3 +59,73 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+.dames {
+  object-fit: cover;
+  background: url(../../public/img/notaires.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: calc(100vh - 120px);
+}
+
+.arrow {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bounce {
+  -moz-animation: bounce 2s infinite;
+  -webkit-animation: bounce 2s infinite;
+  animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
+}
+
+.barbora {
+  background: url(../../public/img/barbora.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #9f1832;
+}
+
+.regula {
+  background: url(../../public/img/regula.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #9f1832;
+}
+
+.maria {
+  background: url(../../public/img/maria.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #9f1832;
+}
+
+.carla {
+  object-fit: cover;
+  background: url(../../public/img/carla.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #9f1832;
+}
