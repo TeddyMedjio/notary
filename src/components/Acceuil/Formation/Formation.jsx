@@ -1,6 +1,6 @@
 import Image from "next/image";
-import balance from "../../../public/img/balance.svg";
-import certificate from "../../../public/img/certificate.svg";
+import balance from "../../../../public/img/balance.svg";
+import certificate from "../../../../public/img/certificate.svg";
 
 const Formation = () => {
   return (

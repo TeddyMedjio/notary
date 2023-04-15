@@ -2,8 +2,8 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import Image from "next/image";
 import Link from "next/link";
-import slide from "../../../public/img/slider_notaire.jpg";
-import slider from "../../../public/img/slider_notaire02.jpg";
+import slide from "../../../../public/img/slider_notaire.jpg";
+import slider from "../../../../public/img/slider_notaire02.jpg";
 
 // Import Swiper styles
 import "swiper/css";

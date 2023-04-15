@@ -1,4 +1,4 @@
-import { Apostrof } from "@/components/Apostrof/Apostrof";
+import { Apostrof } from "@/components/Acceuil/Apostrof/Apostrof";
 
 const Citation = () => {
   return (
