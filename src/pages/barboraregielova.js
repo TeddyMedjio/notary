@@ -1,21 +1,19 @@
 import Head from "next/head";
 import { motion, useScroll, useSpring } from "framer-motion";
 import Navbar from "@/components/Header/Navbar";
-import QuiSommes from "@/components/QuiSommes";
-import Notaires from "@/components/Notaires/Notaires";
+import { LoremIpsum } from "@/components/Lorem";
 
-export default function QuiSommesNous() {
+export default function barbora() {
   const { scrollYProgress } = useScroll();
   const scaleX = useSpring(scrollYProgress, {
     stiffness: 100,
     damping: 30,
     restDelta: 0.001,
   });
-
   return (
     <>
       <Head>
-        <title>Qui sommes nous - Notariat Riegelová</title>
+        <title>Barbora Riegelová - Notariat Riegelová</title>
         <meta
           name="description"
           content="Das freie unabhängige Berufsnotariat"
@@ -33,8 +31,7 @@ export default function QuiSommesNous() {
           className="mx-auto fixed top-0 left-0 right-0 h-[5px] bg-brand-red z-50"
           style={{ scaleX }}
         />
-        <QuiSommes />
-        <Notaires />
+        <LoremIpsum />
       </main>
     </>
   );

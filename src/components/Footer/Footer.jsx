@@ -20,7 +20,7 @@ const Footer = () => (
           className="text-white font-medium"
           target="_blank"
         >
-          medjio
+          www.medjio.me
         </a>
       </p>
     </div>
