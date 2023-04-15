@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import fleche from "../../../public/img/arrow_right.svg";
+import fleche from "../../../../public/img/arrow_right.svg";
 
 export default function Notaires() {
   return (

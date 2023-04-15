@@ -1,10 +1,10 @@
 import Head from "next/head";
 import { motion, useScroll, useSpring } from "framer-motion";
-import Citation from "@/components/Citation/Citation";
-import Slider from "@/components/Swiper/Slider";
-import Etude from "@/components/Etude/Etude";
-import Formation from "@/components/Formation/Formation";
-import Navbar from "@/components/Header/Navbar";
+import Citation from "@/components/Acceuil/Citation/Citation";
+import Slider from "@/components/Acceuil/Swiper/Slider";
+import Etude from "@/components/Acceuil/Etude/Etude";
+import Formation from "@/components/Acceuil/Formation/Formation";
+import Navbar from "@/components/Navbar/Navbar";
 
 export default function Home() {
   const { scrollYProgress } = useScroll();

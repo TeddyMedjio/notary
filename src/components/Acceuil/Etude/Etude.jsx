@@ -1,5 +1,5 @@
 import Image from "next/image";
-import statue from "../../../public/img/statue.png";
+import statue from "../../../../public/img/statue.png";
 
 const Etude = () => {
   return (
