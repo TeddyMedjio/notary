@@ -1,6 +1,5 @@
 import Head from "next/head";
 import { motion, useScroll, useSpring } from "framer-motion";
-import { LoremIpsum } from "@/components/Lorem";
 import Navbar from "@/components/Navbar/Navbar";
 import HeaderLiensUtiles from "@/components/LiensUtiles/HeaderLiensUtiles";
 import Liens from "@/components/LiensUtiles/Liens";
@@ -36,7 +35,6 @@ export default function LiensUtiles() {
         />
         <HeaderLiensUtiles />
         <Liens />
-        <LoremIpsum />
       </main>
     </>
   );
