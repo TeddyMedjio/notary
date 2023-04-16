@@ -2,6 +2,8 @@ import Head from "next/head";
 import { motion, useScroll, useSpring } from "framer-motion";
 import { LoremIpsum } from "@/components/Lorem";
 import Navbar from "@/components/Navbar/Navbar";
+import HeaderLiensUtiles from "@/components/LiensUtiles/HeaderLiensUtiles";
+import Liens from "@/components/LiensUtiles/Liens";
 
 export default function LiensUtiles() {
   const { scrollYProgress } = useScroll();
@@ -32,6 +34,8 @@ export default function LiensUtiles() {
           className="mx-auto fixed top-0 left-0 right-0 h-[5px] bg-brand-red z-50 "
           style={{ scaleX }}
         />
+        <HeaderLiensUtiles />
+        <Liens />
         <LoremIpsum />
       </main>
     </>

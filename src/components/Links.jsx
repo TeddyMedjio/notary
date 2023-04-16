@@ -1,5 +1,3 @@
-import React from "react";
-
 export const Links = ({ color = "#B4203D", ...props }) => {
   return (
     <svg
