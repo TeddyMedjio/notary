@@ -1,6 +1,5 @@
 import Head from "next/head";
 import { motion, useScroll, useSpring } from "framer-motion";
-import { LoremIpsum } from "@/components/Lorem";
 import Navbar from "@/components/Navbar/Navbar";
 import Header from "@/components/Services/Header";
 import Profil from "@/components/Services/Profil/Profil";
