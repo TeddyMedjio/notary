@@ -1,8 +1,8 @@
 import Head from "next/head";
 import { motion, useScroll, useSpring } from "framer-motion";
-import { LoremIpsum } from "@/components/Lorem";
 import Navbar from "@/components/Navbar/Navbar";
 import HeaderPresse from "@/components/Presse/HeaderPresse";
+import Articles from "@/components/Presse/Articles";
 
 export default function LaPresse() {
   const { scrollYProgress } = useScroll();
@@ -33,7 +33,7 @@ export default function LaPresse() {
           style={{ scaleX }}
         />
         <HeaderPresse />
-        <LoremIpsum />
+        <Articles />
       </main>
     </>
   );
