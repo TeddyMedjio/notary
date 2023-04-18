@@ -25,7 +25,7 @@ export default function Articles() {
               <h4 className="font-heading text-2xl text-brand-red mb-3">
                 31.05.2021
               </h4>
-              <Link href="/img/Beitrag_BZ_2021.pdf">
+              <Link href="/img/Beitrag_BZ_2021.pdf" target="blank">
                 <button className=" text-white font-semibold rounded bg-brand-red px-10 py-3 ">
                   Savoir plus
                 </button>
@@ -48,7 +48,7 @@ export default function Articles() {
               <h4 className="font-heading text-2xl text-brand-red mb-3">
                 17.06.2020
               </h4>
-              <Link href="/img/la_gueule_01_2020.pdf">
+              <Link href="/img/la_gueule_01_2020.pdf" target="blank">
                 <button className=" text-white font-semibold rounded bg-brand-red px-10 py-3 ">
                   Savoir plus
                 </button>
@@ -71,7 +71,7 @@ export default function Articles() {
               <h4 className="font-heading text-2xl text-brand-red mb-3">
                 10.12.2018
               </h4>
-              <Link href="/img/Bieler-Tagblatt-vom-10.12.2018.png">
+              <Link href="/img/Kurzporträt-BR.pdf" target="blank">
                 <button className=" text-white font-semibold rounded bg-brand-red px-10 py-3 ">
                   Savoir plus
                 </button>
@@ -94,7 +94,7 @@ export default function Articles() {
               <h4 className="font-heading text-2xl text-brand-red mb-3">
                 2018
               </h4>
-              <Link href="/img/La-Gueule-2018.png">
+              <Link href="/img/La-Gueule-2018.png" target="blank">
                 <button className=" text-white font-semibold rounded bg-brand-red px-10 py-3 ">
                   Savoir plus
                 </button>
@@ -117,7 +117,10 @@ export default function Articles() {
               <h4 className="font-heading text-2xl text-brand-red mb-3">
                 2016
               </h4>
-              <Link href="/img/Kurzporträt-BR.pdf">
+              <Link
+                href="/img/Bieler-Tagblatt-vom-10.12.2018.png"
+                target="blank"
+              >
                 <button className=" text-white font-semibold rounded bg-brand-red px-10 py-3 ">
                   Savoir plus
                 </button>
@@ -141,7 +144,7 @@ export default function Articles() {
               <h4 className="font-heading text-2xl text-brand-red mb-3">
                 2016
               </h4>
-              <Link href="/img/Adieu-à-la-Société-Anonyme.png">
+              <Link href="/img/Adieu-à-la-Société-Anonyme.png" target="blank">
                 <button className=" text-white font-semibold rounded bg-brand-red px-10 py-3 ">
                   Savoir plus
                 </button>
