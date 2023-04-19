@@ -4,7 +4,7 @@ import Navbar from "@/components/Navbar/Navbar";
 import HeaderContact from "@/components/Contact/HeaderContact";
 import dynamic from "next/dynamic";
 
-const Map = dynamic(() => import("@/components/Contact/Map"), {
+const Location = dynamic(() => import("@/components/Contact/Location"), {
   ssr: false,
 });
 
@@ -38,7 +38,7 @@ export default function Contact() {
           style={{ scaleX }}
         />
         <HeaderContact />
-        <Map />
+        <Location />
       </main>
     </>
   );

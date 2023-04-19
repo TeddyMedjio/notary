@@ -13,7 +13,7 @@ const markerIcon = Leaflet.divIcon({
   className: "foo",
 });
 
-function Map() {
+export default function Location() {
   return (
     <MapContainer
       center={[47.13996782839861, 7.24540314038605]}
@@ -130,4 +130,3 @@ function Map() {
     </MapContainer>
   );
 }
-export default Map;
