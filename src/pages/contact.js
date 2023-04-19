@@ -3,8 +3,9 @@ import { motion, useScroll, useSpring } from "framer-motion";
 import Navbar from "@/components/Navbar/Navbar";
 import HeaderContact from "@/components/Contact/HeaderContact";
 import dynamic from "next/dynamic";
+import Link from "next/link";
 
-const Location = dynamic(() => import("@/components/Contact/Location"), {
+const Map = dynamic(() => import("@/components/Contact/Map"), {
   ssr: false,
 });
 
@@ -30,6 +31,12 @@ export default function Contact() {
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
+        <Link
+          rel="stylesheet"
+          href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
+          integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+          crossOrigin=""
+        />
       </Head>
       <main>
         <Navbar />
@@ -38,7 +45,7 @@ export default function Contact() {
           style={{ scaleX }}
         />
         <HeaderContact />
-        <Location />
+        <Map />
       </main>
     </>
   );

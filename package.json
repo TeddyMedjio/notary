@@ -8,6 +8,11 @@
     "start": "next start",
     "lint": "next lint"
   },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not op_mini all"
+  ],
   "dependencies": {
     "@headlessui/react": "^1.7.14",
     "@heroicons/react": "^2.0.17",
