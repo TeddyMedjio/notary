@@ -13,13 +13,13 @@ const markerIcon = Leaflet.divIcon({
   className: "foo",
 });
 
-function Map() {
+export default function Location() {
   return (
     <MapContainer
       center={[47.13996782839861, 7.24540314038605]}
       zoom={20}
       scrollWheelZoom={false}
-      style={{ height: "600px" }}
+      style={{ height: "700px" }}
     >
       <div className="relative w-[390px] z-[2000]">
         <div className="bg-white  px-10 py-10 ">
@@ -38,16 +38,16 @@ function Map() {
                 <path
                   d="M1 1H21.9344V15.2823C21.9344 16.3869 21.039 17.2823 19.9344 17.2823H3C1.89543 17.2823 1 16.3869 1 15.2823V1Z"
                   stroke="#9F1832"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                 />
                 <path
                   d="M1 1L11.4672 11.4672L21.9344 1"
                   stroke="#9F1832"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                 />
               </svg>
 
@@ -67,9 +67,9 @@ function Map() {
                 <path
                   d="M19.51 5.71825C17.969 12.8081 12.3869 18.3903 5.29697 19.9313C3.13823 20.4005 1.32622 18.565 1.32622 16.3559V14.3777C1.32622 13.8254 1.77476 13.3822 2.32505 13.3354C3.46349 13.2386 4.55515 12.9778 5.57634 12.5767L7.3433 14.3436C10.2172 12.9683 12.547 10.6385 13.9223 7.76458L12.1554 5.99763C12.5565 4.97644 12.8173 3.88477 12.9141 2.74633C12.961 2.19603 13.4042 1.7475 13.9564 1.7475H15.9346C18.1437 1.7475 19.9792 3.55951 19.51 5.71825Z"
                   stroke="#9F1832"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                 />
               </svg>
 
@@ -130,4 +130,3 @@ function Map() {
     </MapContainer>
   );
 }
-export default Map;
