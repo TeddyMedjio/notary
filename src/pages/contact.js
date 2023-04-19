@@ -4,7 +4,7 @@ import Navbar from "@/components/Navbar/Navbar";
 import HeaderContact from "@/components/Contact/HeaderContact";
 import dynamic from "next/dynamic";
 
-const Map = dynamic(() => import("@/components/Contact/Map"), {
+const Map = dynamic(() => import("@/components/Contact/Map.tsx"), {
   ssr: false,
 });
 
