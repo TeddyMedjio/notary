@@ -1,4 +1,4 @@
-import { MapContainer, Marker, Popup, TileLayer } from "react-leaflet";
+import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
 import Leaflet from "Leaflet";
 import "leaflet/dist/leaflet.css";
 
@@ -10,7 +10,7 @@ const markerIcon = Leaflet.divIcon({
   `,
   iconSize: [19, 27],
   iconAnchor: [19 / 2, 27],
-  className: "foo",
+  className: "ted",
 });
 
 export default function Location() {
