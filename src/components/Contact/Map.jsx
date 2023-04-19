@@ -1,7 +1,6 @@
 import { MapContainer, Marker, Popup, TileLayer } from "react-leaflet";
 import Leaflet from "Leaflet";
 import "leaflet/dist/leaflet.css";
-import Link from "next/link";
 
 const markerIcon = Leaflet.divIcon({
   html: `<svg width="38" height="54" viewBox="0 0 38 54" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -74,7 +73,7 @@ function Map() {
                 />
               </svg>
 
-              <p className="text-brand-red font-openSans text-xl ml-3">
+              <p className="text-brand-gray font-openSans text-xl ml-3">
                 +41 (0) 32 322 43 55
               </p>
             </div>
