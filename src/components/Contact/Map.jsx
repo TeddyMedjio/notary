@@ -96,7 +96,7 @@ function Map() {
 
           <div className=" space-y-2 mt-5">
             <h3 className=" font-heading text-3xl text-brand-red underline">
-              Heures d'ouverture
+              Heures d&apos;ouverture
             </h3>
             <div className="flex items-center">
               <p className="text-brand-gray font-openSans font-semibold text-xl ">
