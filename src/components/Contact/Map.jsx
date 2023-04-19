@@ -74,7 +74,7 @@ function Map() {
                 />
               </svg>
 
-              <p className="text-brand-red font-openSans text-xl ml-3">
+              <p className="text-brand-gray font-openSans text-xl ml-3">
                 +41 (0) 32 322 43 55
               </p>
             </div>
