@@ -96,6 +96,15 @@
   height: calc(100vh - 120px);
 }
 
+.contact {
+  object-fit: cover;
+  background: url(../../public/img/contact.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: calc(100vh - 120px);
+}
+
 .arrow {
   text-align: center;
   display: flex;

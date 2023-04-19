@@ -1,7 +1,12 @@
 import Head from "next/head";
 import { motion, useScroll, useSpring } from "framer-motion";
-import { LoremIpsum } from "@/components/Lorem";
 import Navbar from "@/components/Navbar/Navbar";
+import HeaderContact from "@/components/Contact/HeaderContact";
+import dynamic from "next/dynamic";
+
+const Map = dynamic(() => import("@/components/Contact/Map"), {
+  ssr: false,
+});
 
 export default function Contact() {
   const { scrollYProgress } = useScroll();
@@ -32,7 +37,8 @@ export default function Contact() {
           className="mx-auto fixed top-0 left-0 right-0 h-[5px] bg-brand-red z-50 "
           style={{ scaleX }}
         />
-        <LoremIpsum />
+        <HeaderContact />
+        <Map />
       </main>
     </>
   );
