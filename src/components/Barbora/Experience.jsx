@@ -46,15 +46,16 @@ export default function Experience() {
         </h3>
 
         <p className=" text-brand-gray mb-5">
-          Dans le cadre de ma formation de notaire, j'ai effectué un stage au
-          bureau du cadastre du Seeland à Nidau, au bureau du registre du
+          Dans le cadre de ma formation de notaire, j&apos;ai effectué un stage
+          au bureau du cadastre du Seeland à Nidau, au bureau du registre du
           commerce du canton de Berne et un stage de 19 mois dans un cabinet
-          d'avocats et de notaires renommé à Biel/Bienne.
+          d&apos;avocats et de notaires renommé à Biel/Bienne.
         </p>
 
         <p className=" text-brand-gray mb-5">
-          Après avoir réussi l'examen d'État et mon brevet de notaire, je suis
-          devenu notaire à l'étude de notaire Hugi à Biel/Bienne. A partir du
+          Après avoir réussi l&apos;examen d&apos;État et mon brevet de notaire,
+          je suis devenu notaire à l&apos;étude de notaire Hugi à Biel/Bienne. A
+          partir du
           <span className=" font-semibold">01.01.2017</span>, l&apos;étude de
           notaire Hugi est devenue{" "}
           <span className=" font-semibold">
@@ -63,8 +64,8 @@ export default function Experience() {
         </p>
 
         <p className=" text-brand-gray">
-          À la suite du départ à la retraite du notaire Urs Hugi, j'ai repris le
-          bureau du notaire Hugi & Riegelová le{" "}
+          À la suite du départ à la retraite du notaire Urs Hugi, j&apos;ai
+          repris le bureau du notaire Hugi & Riegelová le{" "}
           <span className=" font-semibold">01.01.2019</span> et je continue à le
           diriger de manière indépendante.
         </p>

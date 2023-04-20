@@ -80,7 +80,7 @@ export default function Apropos() {
               </svg>
 
               <p className=" font-heading text-brand-red text-xl border-b border-brand-gray ml-5 pb-2">
-                Membre de l'Association des notaires bernois
+                Membre de l&apos;Association des notaires bernois
               </p>
             </div>
           </div>
@@ -130,7 +130,7 @@ export default function Apropos() {
               </svg>
 
               <p className=" font-heading text-brand-red text-xl border-b border-brand-gray ml-5 pb-2">
-                Lieu d'origine : La Neuveville BE
+                Lieu d&apos;origine : La Neuveville BE
               </p>
             </div>
           </div>
