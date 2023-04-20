@@ -169,3 +169,12 @@
   background-size: cover;
   background-color: #9f1832;
 }
+
+.immeuble {
+  object-fit: cover;
+  background: url(../../public/img/immeuble.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: white;
+}

@@ -21,11 +21,102 @@ export default function Map() {
       scrollWheelZoom={false}
       style={{ height: "700px" }}
     >
+      <div className="relative w-[390px] z-[2000]">
+        <div className="bg-white  px-10 py-10 ">
+          <div className=" space-y-2">
+            <h3 className=" font-heading text-3xl text-brand-red underline">
+              Contact
+            </h3>
+            <div className="flex items-center">
+              <svg
+                width="23"
+                height="19"
+                viewBox="0 0 23 19"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M1 1H21.9344V15.2823C21.9344 16.3869 21.039 17.2823 19.9344 17.2823H3C1.89543 17.2823 1 16.3869 1 15.2823V1Z"
+                  stroke="#9F1832"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                />
+                <path
+                  d="M1 1L11.4672 11.4672L21.9344 1"
+                  stroke="#9F1832"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                />
+              </svg>
+
+              <p className="text-brand-red font-openSans font-semibold text-xl ml-3">
+                info@notariat-biel.ch
+              </p>
+            </div>
+
+            <div className="flex items-center">
+              <svg
+                width="21"
+                height="22"
+                viewBox="0 0 21 22"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M19.51 5.71825C17.969 12.8081 12.3869 18.3903 5.29697 19.9313C3.13823 20.4005 1.32622 18.565 1.32622 16.3559V14.3777C1.32622 13.8254 1.77476 13.3822 2.32505 13.3354C3.46349 13.2386 4.55515 12.9778 5.57634 12.5767L7.3433 14.3436C10.2172 12.9683 12.547 10.6385 13.9223 7.76458L12.1554 5.99763C12.5565 4.97644 12.8173 3.88477 12.9141 2.74633C12.961 2.19603 13.4042 1.7475 13.9564 1.7475H15.9346C18.1437 1.7475 19.9792 3.55951 19.51 5.71825Z"
+                  stroke="#9F1832"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                />
+              </svg>
+
+              <p className="text-brand-gray font-openSans text-xl ml-3">
+                +41 (0) 32 322 43 55
+              </p>
+            </div>
+          </div>
+
+          <div className=" space-y-2 mt-5">
+            <h3 className=" font-heading text-3xl text-brand-red underline">
+              Adresse
+            </h3>
+            <div>
+              <p className="text-brand-gray font-openSans font-semibold text-xl">
+                Étude de la notaire Riegelová
+              </p>
+              <p className="text-brand-gray font-openSans text-xl">
+                Rue de Nidau 14 <br /> 2502 Biel/Bienne
+              </p>
+            </div>
+          </div>
+
+          <div className=" space-y-2 mt-5">
+            <h3 className=" font-heading text-3xl text-brand-red underline">
+              Heures d&apos;ouverture
+            </h3>
+            <div className="flex items-center">
+              <p className="text-brand-gray font-openSans font-semibold text-xl ">
+                Du lundi au vendredi
+              </p>
+            </div>
+
+            <div className="flex items-center">
+              <p className="text-brand-gray font-openSans text-xl">
+                8h00 à 12h00 | 13h30 à 17h30
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
       <TileLayer
         attribution='&copy; <Link href="https://www.openstreetmap.org/copyright">OpenStreetMap</Link> contributors'
         url="/map-titles/{z}/{x}/{y}"
       />
       <Marker
+        className="marker"
         position={[47.13996782839861, 7.24540314038605]}
         icon={markerIcon}
       >
