@@ -4,6 +4,7 @@ import Navbar from "@/components/Navbar/Navbar";
 import HeaderContact from "@/components/Contact/HeaderContact";
 import dynamic from "next/dynamic";
 import Link from "next/link";
+import Newsletter from "@/components/Contact/Newsletter";
 
 const Map = dynamic(() => import("@/components/Contact/Map"), {
   ssr: false,
@@ -46,6 +47,7 @@ export default function Contact() {
         />
         <HeaderContact />
         <Map />
+        <Newsletter />
       </main>
     </>
   );
