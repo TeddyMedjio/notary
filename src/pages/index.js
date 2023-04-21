@@ -32,7 +32,7 @@ export default function Home() {
       <main>
         <Navbar />
         <motion.div
-          className="mx-auto fixed top-0 left-0 right-0 h-[5px] bg-brand-red z-50 "
+          className="mx-auto fixed top-0 left-0 right-0 h-[5px] bg-brand-red z-[10000] "
           style={{ scaleX }}
         />
         <motion.div
