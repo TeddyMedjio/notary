@@ -26,7 +26,7 @@ export default function Articles() {
                 31.05.2021
               </h4>
               <Link href="/img/Beitrag_BZ_2021.pdf" target="blank">
-                <button className=" text-white font-semibold rounded bg-brand-red px-10 py-3 ">
+                <button className=" text-white font-semibold rounded bg-brand-red px-10 py-3 hover:bg-brand-gray transition duration-300 ease ">
                   Savoir plus
                 </button>
               </Link>
@@ -49,7 +49,7 @@ export default function Articles() {
                 17.06.2020
               </h4>
               <Link href="/img/la_gueule_01_2020.pdf" target="blank">
-                <button className=" text-white font-semibold rounded bg-brand-red px-10 py-3 ">
+                <button className=" text-white font-semibold rounded bg-brand-red px-10 py-3 hover:bg-brand-gray transition duration-300 ease ">
                   Savoir plus
                 </button>
               </Link>
@@ -72,7 +72,7 @@ export default function Articles() {
                 10.12.2018
               </h4>
               <Link href="/img/Kurzporträt-BR.pdf" target="blank">
-                <button className=" text-white font-semibold rounded bg-brand-red px-10 py-3 ">
+                <button className=" text-white font-semibold rounded bg-brand-red px-10 py-3 hover:bg-brand-gray transition duration-300 ease ">
                   Savoir plus
                 </button>
               </Link>
@@ -95,7 +95,7 @@ export default function Articles() {
                 2018
               </h4>
               <Link href="/img/La-Gueule-2018.png" target="blank">
-                <button className=" text-white font-semibold rounded bg-brand-red px-10 py-3 ">
+                <button className=" text-white font-semibold rounded bg-brand-red px-10 py-3 hover:bg-brand-gray transition duration-300 ease ">
                   Savoir plus
                 </button>
               </Link>
@@ -121,7 +121,7 @@ export default function Articles() {
                 href="/img/Bieler-Tagblatt-vom-10.12.2018.png"
                 target="blank"
               >
-                <button className=" text-white font-semibold rounded bg-brand-red px-10 py-3 ">
+                <button className=" text-white font-semibold rounded bg-brand-red px-10 py-3 hover:bg-brand-gray transition duration-300 ease ">
                   Savoir plus
                 </button>
               </Link>
@@ -145,7 +145,7 @@ export default function Articles() {
                 2016
               </h4>
               <Link href="/img/Adieu-à-la-Société-Anonyme.png" target="blank">
-                <button className=" text-white font-semibold rounded bg-brand-red px-10 py-3 ">
+                <button className=" text-white font-semibold rounded bg-brand-red px-10 py-3 hover:bg-brand-gray transition duration-300 ease">
                   Savoir plus
                 </button>
               </Link>

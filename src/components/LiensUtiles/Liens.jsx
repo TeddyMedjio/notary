@@ -67,7 +67,7 @@ export default function Liens() {
             className=" flex  "
           >
             <Links color="#ffffff" />
-            <h3 className="text-white font-bold text-lg lg:text-2xl ml-3 uppercase">
+            <h3 className="text-white font-bold text-lg lg:text-2xl ml-3 uppercase hover:text-brand-yellow">
               {" "}
               Loi sur le notariat (LN)
             </h3>{" "}
@@ -79,7 +79,7 @@ export default function Liens() {
             className=" flex  "
           >
             <Links color="#ffffff" />
-            <h3 className="text-white font-bold text-lg lg:text-2xl ml-3 uppercase">
+            <h3 className="text-white font-bold text-lg lg:text-2xl ml-3 uppercase hover:text-brand-yellow">
               {" "}
               Ordonnance sur le notariat (ON)
             </h3>{" "}
@@ -91,7 +91,7 @@ export default function Liens() {
             className=" flex  "
           >
             <Links color="#ffffff" />
-            <h3 className="text-white font-bold text-lg lg:text-2xl ml-3 uppercase">
+            <h3 className="text-white font-bold text-lg lg:text-2xl ml-3 uppercase hover:text-brand-yellow">
               {" "}
               Ordonnance sur les émoluments des notaires (OEmN)
             </h3>{" "}
@@ -103,7 +103,7 @@ export default function Liens() {
             className=" flex  "
           >
             <Links color="#ffffff" />
-            <h3 className="text-white font-bold text-lg lg:text-2xl ml-3 uppercase">
+            <h3 className="text-white font-bold text-lg lg:text-2xl ml-3 uppercase hover:text-brand-yellow">
               {" "}
               Loi concernant les impôts sur les mutations (LIMu)
             </h3>{" "}
@@ -115,7 +115,7 @@ export default function Liens() {
             className=" flex  "
           >
             <Links color="#ffffff" />
-            <h3 className="text-white font-bold text-lg lg:text-2xl ml-3 uppercase">
+            <h3 className="text-white font-bold text-lg lg:text-2xl ml-3 uppercase hover:text-brand-yellow">
               {" "}
               Droit sur les impôts (LI)
             </h3>{" "}
@@ -127,7 +127,7 @@ export default function Liens() {
             className=" flex  "
           >
             <Links color="#ffffff" />
-            <h3 className="text-white font-bold text-lg lg:text-2xl ml-3 uppercase">
+            <h3 className="text-white font-bold text-lg lg:text-2xl ml-3 uppercase hover:text-brand-yellow">
               {" "}
               Loi concernant l&apos;impôt sur les successions et donations
               (LISD)
