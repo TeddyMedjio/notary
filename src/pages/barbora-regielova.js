@@ -11,6 +11,7 @@ export default function BarboraRegielova() {
     damping: 30,
     restDelta: 0.001,
   });
+
   return (
     <>
       <Head>
