@@ -32,7 +32,7 @@ export default function Notaires() {
 
         {/* regula */}
         <Link
-          href="/barbora-regielova"
+          href="/contact"
           className="regula rounded-md flex items-end min-h-[631px] max-w-[628px] md:min-w-[628px] group "
         >
           <div className="py-10 bg-gradient-to-t from-brand-red w-full px-5 rounded-b-lg lg:opacity-0 transition-all duration-1000 ease-in-out group-hover:opacity-100 ">
@@ -56,7 +56,7 @@ export default function Notaires() {
 
         {/* Maria */}
         <Link
-          href="/barbora-regielova"
+          href="/contact"
           className="maria rounded-md flex items-end min-h-[631px] max-w-[628px] md:min-w-[628px] group "
         >
           <div className="py-10 bg-gradient-to-t from-brand-red w-full px-5 rounded-b-lg lg:opacity-0 transition-all duration-1000 ease-in-out  group-hover:opacity-100 ">
@@ -80,7 +80,7 @@ export default function Notaires() {
 
         {/* Carla */}
         <Link
-          href="/barbora-regielova"
+          href="/contact"
           className="carla rounded-md flex items-end min-h-[631px] max-w-[628px] md:min-w-[628px] group "
         >
           <div className="py-10 bg-gradient-to-t from-brand-red w-full px-5 rounded-b-lg lg:opacity-0 transition-all duration-1000 ease-in-out  group-hover:opacity-100">
