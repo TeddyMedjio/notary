@@ -11,7 +11,7 @@ export default function Notaires() {
           href="/barbora-regielova"
           className="barbora rounded-md flex items-end min-h-[631px] max-w-[628px] md:min-w-[628px] group "
         >
-          <div className="py-10 bg-gradient-to-t from-brand-red w-full px-5 rounded-b-lg lg:opacity-0 transition-all duration-1000 ease-in-out  group-hover:opacity-100 lg:group-hover:translate-y-1">
+          <div className="py-10 bg-gradient-to-t from-brand-red w-full px-5 rounded-b-lg lg:opacity-0 transition-all duration-1000 ease-in-out  group-hover:opacity-100 ">
             <div className=" flex items-center pt-20 ">
               <h2 className="text-5xl text-white font-heading mr-5 group-hover:opacity-100 lg:translate-x-10 lg:group-hover:translate-x-0 transition-all duration-1000">
                 Barbora <br className="md:hidden" /> Riegelová
@@ -35,7 +35,7 @@ export default function Notaires() {
           href="/barbora-regielova"
           className="regula rounded-md flex items-end min-h-[631px] max-w-[628px] md:min-w-[628px] group "
         >
-          <div className="py-10 bg-gradient-to-t from-brand-red w-full px-5 rounded-b-lg lg:opacity-0 transition-all duration-1000 ease-in-out  group-hover:opacity-100 lg:group-hover:translate-y-1">
+          <div className="py-10 bg-gradient-to-t from-brand-red w-full px-5 rounded-b-lg lg:opacity-0 transition-all duration-1000 ease-in-out group-hover:opacity-100 ">
             <div className=" flex items-center pt-20 ">
               <h2 className="text-5xl text-white font-heading mr-5 group-hover:opacity-100 lg:translate-x-10 lg:group-hover:translate-x-0 transition-all duration-1000">
                 Regula <br className="md:hidden" /> Stettler
@@ -59,7 +59,7 @@ export default function Notaires() {
           href="/barbora-regielova"
           className="maria rounded-md flex items-end min-h-[631px] max-w-[628px] md:min-w-[628px] group "
         >
-          <div className="py-10 bg-gradient-to-t from-brand-red w-full px-5 rounded-b-lg lg:opacity-0 transition-all duration-1000 ease-in-out  group-hover:opacity-100 lg:group-hover:translate-y-1">
+          <div className="py-10 bg-gradient-to-t from-brand-red w-full px-5 rounded-b-lg lg:opacity-0 transition-all duration-1000 ease-in-out  group-hover:opacity-100 ">
             <div className=" flex items-center pt-20 ">
               <h2 className="text-5xl text-white font-heading mr-5 group-hover:opacity-100 lg:translate-x-10 lg:group-hover:translate-x-0 transition-all duration-1000">
                 Maria <br className="md:hidden" /> Righenzi
@@ -83,7 +83,7 @@ export default function Notaires() {
           href="/barbora-regielova"
           className="carla rounded-md flex items-end min-h-[631px] max-w-[628px] md:min-w-[628px] group "
         >
-          <div className="py-10 bg-gradient-to-t from-brand-red w-full px-5 rounded-b-lg lg:opacity-0 transition-all duration-1000 ease-in-out  group-hover:opacity-100 lg:group-hover:translate-y-1">
+          <div className="py-10 bg-gradient-to-t from-brand-red w-full px-5 rounded-b-lg lg:opacity-0 transition-all duration-1000 ease-in-out  group-hover:opacity-100">
             <div className=" flex items-center pt-20 ">
               <h2 className="text-5xl text-white font-heading mr-5 group-hover:opacity-100 lg:translate-x-10 lg:group-hover:translate-x-0 transition-all duration-1000">
                 Carla <br className="md:hidden" /> Hartmann
