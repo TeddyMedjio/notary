@@ -46,7 +46,7 @@ export default function Notaires() {
               </div>
             </div>
             <p className=" text-2xl text-white mt-3 border-brand-yellow border-b group-hover:opacity-100 lg:translate-x-18 lg:group-hover:translate-x-0 transition-all duration-1000">
-              Employée de notaire certifiée
+              Employée de notaire certifiée.
             </p>
             <p className="text-brand-yellow text-xl group-hover:opacity-100 lg:-translate-x-28 lg:group-hover:translate-x-0 transition-all duration-1000 ">
               regula.stettler@notariat-biel.ch
