@@ -1,4 +1,5 @@
 import Head from "next/head";
+// import { useRouter } from "next/router";
 import { motion, useScroll, useSpring } from "framer-motion";
 import Citation from "@/components/Acceuil/Citation/Citation";
 import Slider from "@/components/Acceuil/Swiper/Slider";
@@ -7,6 +8,13 @@ import Formation from "@/components/Acceuil/Formation/Formation";
 import Navbar from "@/components/Navbar/Navbar";
 
 export default function Home() {
+  // const { locale } = useRouter();
+
+  // const greetings = {
+  //   fr: "salut le monde",
+  //   de: "Hallo Welt",
+  // };
+
   const { scrollYProgress } = useScroll();
   const scaleX = useSpring(scrollYProgress, {
     stiffness: 100,
@@ -44,6 +52,7 @@ export default function Home() {
             ease: [0, 0.71, 0.2, 1.01],
           }}
         >
+          {/* <h1>{greetings[locale]}</h1> */}
           <Slider />
           <Etude />
           <Formation />
