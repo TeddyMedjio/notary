@@ -8,7 +8,7 @@ const Etude = () => {
         <div className=" max-w-2xl">
           <h2 className=" font-heading text-5xl text-white">
             Le Cabinet d&#39;étude de la <br className="hidden md:block" />
-            <span className="text-brand-yellow">notaire Riegelová</span>
+            <span className="text-brand-yellow">Notaire Riegelová</span>
           </h2>
           <p className=" text-lg mt-5 text-white">
             Nous exerçons nos activités sans directives, pour notre propre
